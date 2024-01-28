@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Use a nested ternary operator to check that a number is positive, negative or zero. You have to print
+        “positive” if the number is positive and similarly for negative and zero also.</h2>
+    <p>
+        Certainly! You can use a nested ternary operator to check whether a number is positive, negative, or zero. Here's an example in JavaScript:
+        let number = -5;
+
+        let result = number > 0
+                ? "positive"
+                : number < 0
+                ? "negative"
+                : "zero";
+
+        console.log(`The number is ${result}.`);
+        In this example:
+
+        The first condition (number > 0) checks if the number is greater than 0. If true, it returns "positive."
+        If the first condition is false, the second condition (number < 0) checks if the number is less than 0. If true, it returns "negative."
+        If both conditions are false, it means the number is equal to 0, and the third part ("zero") is returned.
+        You can change the value of the number variable to test the program with different input values. This nested ternary operator is a compact way to express the logic for checking the sign of a number.
+    </p>
+</body>
+</html>

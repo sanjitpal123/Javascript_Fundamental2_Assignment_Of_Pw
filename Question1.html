@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    // Sir i know i should have done it in txt file but still i did it , please sir don't cut my marks
+
+    
+    <h2> Q.Explain the usage of ternary operator with syntax and write a program to check whether the number is even
+        or odd using the ternary operator.</h2>
+    <p>
+        The ternary operator is a concise way to write conditional expressions in JavaScript. It provides a compact syntax for evaluating a condition and returning one of two values based on whether the condition is true or false. The ternary operator is often used as a shorthand for simple if-else statements.
+
+        Syntax of the Ternary Operator:
+
+        condition ? expression_if_true : expression_if_false;
+        If the condition is true, the expression before the colon (:) is evaluated.
+        If the condition is false, the expression after the colon (:) is evaluated.
+
+        Example: Checking Whether a Number is Even or Odd using the Ternary Operator:
+        Program to check if a number is even or odd using the ternary operator
+
+        let number = 17;
+
+        let result = (number % 2 === 0) ? "Even" : "Odd";
+
+        console.log(`The number ${number} is ${result}.`);
+        In this example:
+        The condition (number % 2 === 0) checks if the remainder when number is divided by 2 is equal to 0, which indicates an even number.
+        If the condition is true, the expression before the colon ("Even") is evaluated and assigned to the variable result.
+        If the condition is false, the expression after the colon ("Odd") is evaluated and assigned to the variable result.
+        The program then prints a message indicating whether the number is even or odd.
+        You can change the value of the number variable to test the program with different input values.
+
+        This is a concise way to express a simple conditional check. However, for more complex conditions or multiple branches, using an if-else statement may be more readable.
+    </p>    
+</body>
+</html>
